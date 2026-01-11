@@ -1,5 +1,5 @@
-local addonName, addon = ...
-local L = addon.Localization.GetLocale("ruRU")
+local _, addon = ...
+local L = addon.Localization.NewLocale("ruRU")
 if not L then return end
 addon.L = L
 
@@ -8,7 +8,7 @@ KrowiEVU.PluginsApi:LoadPluginLocalization(L)
 -- [[ https://legacy.curseforge.com/wow/addons/krowi-extended-vendor-ui/localization ]] --
 -- [[ Everything after this line is automatically generated from CurseForge and is not meant for manual edit - SOURCETOKEN - AUTOGENTOKEN ]] --
 
--- [[ Exported at 2025-12-30 18-32-35 ]] --
+-- [[ Exported at 2026-01-11 18-49-44 ]] --
 L["Are you sure you want to hide the options button?"] = "Вы уверены, что хотите скрыть кнопку настроек? Кнопку настроек можно заново вкоючить через {gameMenu} {arrow} {interface} {arrow} {addOns} {arrow} {addonName} {arrow} {general} {arrow} {options}"
 L["Arsenals"] = "Арсеналы"
 L["Author"] = "Автор"
@@ -41,6 +41,8 @@ L["Pets"] = "Питомцы"
 L["Plugins"] = "Плагины"
 L["Recipes"] = "Рецепты"
 L["RememberFilter"] = "Запомнить фильтр"
+L["RememberSearch"] = "Запоминать поиск"
+L["RememberSearchBetweenVendors"] = "Запоминать поиск между продавцами"
 L["Right click"] = "Щелчек ПКМ"
 L["Rows"] = "Ряды"
 L["Rows first"] = "Сначала Ряды"
@@ -54,3 +56,11 @@ L["Show options button Desc"] = "Показ / скрыть мнопку наст
 L["Toys"] = "Игрушки"
 L["Unchecked"] = "Невыделено"
 L["Wago"] = true
+L["Plugin_CanIMogIt_Name"] = true
+L["Plugin_CanIMogIt_Desc"] = "Этот плагин исправляет отображение иконок у продавца, когда некоторые фильтры включены. Настроек не имеет."
+L["Plugin_ElvUI_SkinMerchant"] = "Шкурка торговца"
+L["Plugin_ElvUI_SkinMerchant_Desc"] = "Применить шкурку ElvUI  к окну торговца. -> Blizzard + Окно торговца"
+L["Plugin_ElvUI_SkinMiscFrames"] = "Шкурка окон Другое"
+L["Plugin_ElvUI_SkinMiscFrames_Desc"] = "Применить шкурку ElvUI к Фильтру Меню и Меню Настроек. ->  Blizzard + Окна Другое "
+L["Plugin_ElvUI_SkinTooltip"] = "Шкурка Подсказки"
+L["Plugin_ElvUI_SkinTooltip_Desc"] = "Применить шкурку ElvUI к Подсказкам. -> Blizzard + Подсказки"

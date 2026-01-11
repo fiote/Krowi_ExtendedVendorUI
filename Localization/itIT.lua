@@ -1,5 +1,5 @@
-local addonName, addon = ...
-local L = addon.Localization.GetLocale("itIT")
+local _, addon = ...
+local L = addon.Localization.NewLocale("itIT")
 if not L then return end
 addon.L = L
 
@@ -8,7 +8,7 @@ KrowiEVU.PluginsApi:LoadPluginLocalization(L)
 -- [[ https://legacy.curseforge.com/wow/addons/krowi-extended-vendor-ui/localization ]] --
 -- [[ Everything after this line is automatically generated from CurseForge and is not meant for manual edit - SOURCETOKEN - AUTOGENTOKEN ]] --
 
--- [[ Exported at 2025-12-30 18-32-33 ]] --
+-- [[ Exported at 2026-01-11 18-49-43 ]] --
 L["Are you sure you want to hide the options button?"] = [=[Vuoi davvero nascondere il pulsante opzioni?
 Il pulsante può essere mostrato di nuovo da {gameMenu} {arrow} {interface} {arrow} {addOns} {arrow} {addonName} {arrow} {general} {arrow} {options}]=]
 L["Author"] = "Autore"
@@ -34,4 +34,8 @@ L["Show minimap icon Desc"] = "Mostra / nascondi il pulsante opzioni nella minim
 L["Show options button"] = "Mostra il pulsante opzioni"
 L["Show options button Desc"] = "Mostra / nascondi il pulsante opzioni nella finestra del mercante."
 L["Unchecked"] = "Non selezionato"
-L["Wago"] = "Wago "
+L["Wago"] = "Wago"
+L["Plugin_CanIMogIt_Name"] = true
+L["Plugin_CanIMogIt_Desc"] = [=[Questo plugin corregge la sovrapposizione di icone negli oggetti dei mercanti quando sono applicati diversi filtri.
+
+Non ci sono opzioni.]=]

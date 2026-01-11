@@ -1,5 +1,5 @@
-local addonName, addon = ...
-local L = addon.Localization.GetLocale("zhCN")
+local _, addon = ...
+local L = addon.Localization.NewLocale("zhCN")
 if not L then return end
 addon.L = L
 
@@ -8,7 +8,7 @@ KrowiEVU.PluginsApi:LoadPluginLocalization(L)
 -- [[ https://legacy.curseforge.com/wow/addons/krowi-extended-vendor-ui/localization ]] --
 -- [[ Everything after this line is automatically generated from CurseForge and is not meant for manual edit - SOURCETOKEN - AUTOGENTOKEN ]] --
 
--- [[ Exported at 2025-12-30 18-32-36 ]] --
+-- [[ Exported at 2026-01-11 18-49-44 ]] --
 L["Are you sure you want to hide the options button?"] = "是否确定隐藏按钮？再次显示按钮请到 {gameMenu} > {addOns} > 商人 > {general} > {options}"
 L["Author"] = "作者"
 L["Build"] = "版本"
@@ -47,3 +47,5 @@ L["Show options button Desc"] = "显示/隐藏商人界面的设置按钮"
 L["Toys"] = "玩具"
 L["Unchecked"] = "停用"
 L["Wago"] = true
+L["Plugin_CanIMogIt_Name"] = true
+L["Plugin_CanIMogIt_Desc"] = [=[这个插件修复了在应用不同过滤器时，商人物品图标的叠加问题。]=]

@@ -1,5 +1,5 @@
-local addonName, addon = ...
-local L = addon.Localization.GetLocale("frFR")
+local _, addon = ...
+local L = addon.Localization.NewLocale("frFR")
 if not L then return end
 addon.L = L
 
@@ -8,7 +8,7 @@ KrowiEVU.PluginsApi:LoadPluginLocalization(L)
 -- [[ https://legacy.curseforge.com/wow/addons/krowi-extended-vendor-ui/localization ]] --
 -- [[ Everything after this line is automatically generated from CurseForge and is not meant for manual edit - SOURCETOKEN - AUTOGENTOKEN ]] --
 
--- [[ Exported at 2025-12-30 18-32-33 ]] --
+-- [[ Exported at 2026-01-11 18-49-42 ]] --
 L["Are you sure you want to hide the options button?"] = "Êtes-vous sûr de vouloir cacher le bouton des options ?"
 L["Author"] = "Auteur"
 L["Build"] = "Version"
@@ -42,3 +42,6 @@ L["Show minimap icon Desc"] = "Afficher ou masquer l'icône sur la mini-map."
 L["Toys"] = "Jouets"
 L["Unchecked"] = "Non coché"
 L["Wago"] = true
+L["Plugin_CanIMogIt_Name"] = true
+L["Plugin_CanIMogIt_Desc"] = [=[Ce plugin corrige les icônes de superposition sur les articles des marchands lorsque différents filtres sont appliqués.
+Il n'y a pas d'options.]=]

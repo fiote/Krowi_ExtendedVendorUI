@@ -231,7 +231,7 @@ function tokenBanner:CreateOptionsMenu(menuObj, menuBuilder)
 
     local tokenBannerMenu = menuBuilder:CreateSubmenuButton(menuObj, addon.L['Token Banner'])
 
-	local lib = LibStub('Krowi_Currency-1.0')
+	local lib = LibStub('Krowi_Currency_2')
 	lib:CreateMoneyOptionsMenu(tokenBannerMenu, menuBuilder, profile)
 
 	menuBuilder:CreateDivider(tokenBannerMenu)

@@ -198,7 +198,7 @@ function KrowiEVU_OptionsButtonMixin:CreateMenu(menuObj)
 	-- Hide button
 	if profile.ShowHideOption then
 		menuBuilder:CreateDivider(menuObj)
-		menuBuilder:CreateButtonAndAdd(menuObj, addon.L['Hide'], function()
+		menuBuilder:CreateButtonAndAdd(menuObj, addon.Util.L['Hide'], function()
 			if not StaticPopup_IsCustomGenericConfirmationShown('KrowiEVU_ConfirmHideOptionsButton') then
 				StaticPopup_ShowCustomGenericConfirmation(
 					{
