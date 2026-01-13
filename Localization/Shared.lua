@@ -1,3 +1,5 @@
+-- [[ https://legacy.curseforge.com/wow/addons/krowi-extended-vendor-ui/localization ]] --
+
 local _, addon = ...
 local L = addon.L
 

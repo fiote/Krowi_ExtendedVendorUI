@@ -1,13 +1,11 @@
 local _, addon = ...
 local L = addon.Localization.NewDefaultLocale()
-addon.L = L
 
 KrowiEVU.PluginsApi:LoadPluginLocalization(L)
 
--- [[ https://legacy.curseforge.com/wow/addons/krowi-extended-vendor-ui/localization ]] --
 -- [[ Everything after this line is automatically generated from CurseForge and is not meant for manual edit - SOURCETOKEN - AUTOGENTOKEN ]] --
 
--- [[ Exported at 2026-01-11 18-51-05 ]] --
+-- [[ Exported at 2026-01-12 19-36-55 ]] --
 L["Are you sure you want to hide the options button?"] = [=[Are you sure you want to hide the options button?
 The options button can be shown again via {gameMenu} {arrow} {interface} {arrow} {addOns} {arrow} {addonName} {arrow} {general} {arrow} {options}]=]
 L["Arsenals"] = true
@@ -17,6 +15,9 @@ L["Custom"] = true
 L["Default filters"] = true
 L["Deselect All"] = true
 L["Ensembles"] = true
+L["Enter housing quantity"] = "Enter housing quantity (1-999):"
+L["Enter number of columns"] = "Enter number of columns (2-99):"
+L["Enter number of rows"] = "Enter number of rows (1-99):"
 L["Filters"] = true
 L["Hide collected"] = true
 L["Housing"] = true
@@ -62,3 +63,4 @@ L["Show options button"] = true
 L["Show options button Desc"] = "Show / hide the options button in the merchant window."
 L["Token Banner"] = true
 L["Toys"] = true
+L['Direction'] = true

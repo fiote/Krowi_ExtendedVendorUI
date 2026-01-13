@@ -70,8 +70,8 @@ local info = {
                 Discord = {
                     order = OrderPP(), type = 'execute', width = AdjustedWidth(),
                     name = addon.Util.L['Discord'],
-                    desc = addon.Util.L['Discord Desc']:K_ReplaceVars(addon.Metadata.DiscordServerName),
-                    func = function() LibStub('Krowi_PopupDialog-1.0').ShowExternalLink(addon.Metadata.DiscordInviteLink) end
+                    desc = addon.Util.L['Discord Desc']:K_ReplaceVars(addon.Util.Constants.DiscordServerName),
+                    func = function() LibStub('Krowi_PopupDialog_2').ShowExternalLink(addon.Util.Constants.DiscordInviteLink) end
                 }
             }
         },
@@ -83,13 +83,13 @@ local info = {
                     order = OrderPP(), type = 'execute', width = AdjustedWidth(),
                     name = addon.Util.L['CurseForge'],
                     desc = addon.Util.L['CurseForge Desc']:KEVU_InjectAddonName():K_ReplaceVars(addon.Util.L['CurseForge']),
-                    func = function() LibStub('Krowi_PopupDialog-1.0').ShowExternalLink(addon.Metadata.CurseForge) end
+                    func = function() LibStub('Krowi_PopupDialog_2').ShowExternalLink(addon.Metadata.CurseForge) end
                 },
                 Wago = {
                     order = OrderPP(), type = 'execute', width = AdjustedWidth(),
                     name = addon.Util.L['Wago'],
                     desc = addon.Util.L['Wago Desc']:KEVU_InjectAddonName():K_ReplaceVars(addon.Util.L['Wago']),
-                    func = function() LibStub('Krowi_PopupDialog-1.0').ShowExternalLink(addon.Metadata.Wago) end
+                    func = function() LibStub('Krowi_PopupDialog_2').ShowExternalLink(addon.Metadata.Wago) end
                 },
             }
         }

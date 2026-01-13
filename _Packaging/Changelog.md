@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 21.0 - 2026-01-14
+### Changed
+- Library rework changes integrated (dev note: this change affects all addons and is a preparation for a better unified system for long term support)
+
 ## 20.2 - 2026-01-10
 ### Fixed
 - Localization issues
