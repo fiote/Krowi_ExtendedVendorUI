@@ -7,3 +7,4 @@ KROWI_LIBMAN:NewAddon(addonName, addon, {
     SetMetaData = true,
     InitLocalization = true,
 })
+addon.CurrencyLib = KROWI_LIBMAN:GetLibrary('Krowi_Currency_2')
