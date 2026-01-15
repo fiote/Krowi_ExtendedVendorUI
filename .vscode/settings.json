@@ -290,7 +290,8 @@
         "BuybackBG",
         "MerchantBuyBackItemNameFrame",
         "KrowiEVU_TokenBannerToken1",
-        "MerchantBuyBackItemSlotTexture"
+        "MerchantBuyBackItemSlotTexture",
+        "KROWI_LIBMAN"
     ],
     "fsdeploy.nodes": [
         {
@@ -406,6 +407,7 @@
         "missing-return",
         "empty-block",
         "inject-field",
-        "duplicate-set-field"
+        "duplicate-set-field",
+        "undefined-field"
     ],
 }

@@ -1,6 +1,15 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 21.0 - 2026-01-14
+### Changed
+- Support for WoW 12.0.0 (Midnight)
+- Library rework changes integrated (dev note: this change affects all addons and is a preparation for a better unified system for long term support)
+
+## 20.2 - 2026-01-10
+### Fixed
+- Localization issues
+
 ## 20.1 - 2026-01-10
 ### Changed
 - Filter menus now display armor and weapon types in consistent sorted order
