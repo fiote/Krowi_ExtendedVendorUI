@@ -6,7 +6,7 @@ KrowiEVU.PluginsApi:LoadPluginLocalization(L)
 
 -- [[ Everything after this line is automatically generated from CurseForge and is not meant for manual edit - SOURCETOKEN - AUTOGENTOKEN ]] --
 
--- [[ Exported at 2026-01-12 19-36-57 ]] --
+-- [[ Exported at 2026-01-15 22-18-36 ]] --
 L["Are you sure you want to hide the options button?"] = [=[Vuoi davvero nascondere il pulsante opzioni?
 Il pulsante può essere mostrato di nuovo da {gameMenu} {arrow} {interface} {arrow} {addOns} {arrow} {addonName} {arrow} {general} {arrow} {options}]=]
 L["Columns"] = "Colonne"

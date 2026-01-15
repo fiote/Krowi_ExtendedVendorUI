@@ -5,7 +5,7 @@ KrowiEVU.PluginsApi:LoadPluginLocalization(L)
 
 -- [[ Everything after this line is automatically generated from CurseForge and is not meant for manual edit - SOURCETOKEN - AUTOGENTOKEN ]] --
 
--- [[ Exported at 2026-01-12 19-36-55 ]] --
+-- [[ Exported at 2026-01-15 22-18-34 ]] --
 L["Are you sure you want to hide the options button?"] = [=[Are you sure you want to hide the options button?
 The options button can be shown again via {gameMenu} {arrow} {interface} {arrow} {addOns} {arrow} {addonName} {arrow} {general} {arrow} {options}]=]
 L["Arsenals"] = true
@@ -14,6 +14,7 @@ L["Columns first"] = true
 L["Custom"] = true
 L["Default filters"] = true
 L["Deselect All"] = true
+L["Direction"] = true
 L["Ensembles"] = true
 L["Enter housing quantity"] = "Enter housing quantity (1-999):"
 L["Enter number of columns"] = "Enter number of columns (2-99):"
@@ -63,4 +64,3 @@ L["Show options button"] = true
 L["Show options button Desc"] = "Show / hide the options button in the merchant window."
 L["Token Banner"] = true
 L["Toys"] = true
-L['Direction'] = true
